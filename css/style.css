@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container-fluid{
+    width: 500px;
+    margin: 50px,auto;
+    padding: 10px;
+    background-color: blue;
+    height: 190px;
+    margin-top:100px ;
+
+}
+
+.inputs{
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    height: 120px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input[type="text"]{
+    height:40px ;
+    width: 300px;
+    background-color:gold ;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 5px;
+    
+}
+
+
+input[type="submit"]{
+    height: 40px;
+    width: 100px;
+    font-weight:bold;
+    color: white;
+    border: none;
+    background-color: crimson;
+    border-radius: 2px;
+    
+}
+
+
+.display{
+    text-align: center;
+    width: 400px;
+    color: black;
+
+}
+
+.wrapper{
+    margin: 0,9rem;
+    background-color: blue;
+    height: 400px;
+    width: 489px;
+    margin: 50px auto;
+    border-radius: 2px;
+    margin-top: 200px;
+    color: red;
+
+}
+
+h3{
+    padding: 50px;
+    text-align: center;
+    background-color: #27303e;
+    font-family: sans-serif;
+    color: white;
+    
+
+}
+
+p{
+    margin: 20px, 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #27303e;
+    font-size: 25px;
+
+    
+
+}
+
+h3 span{
+    font-size: 27px;
+    color: red;
+}
+
+p span{
+    font-size: 27px;
+    color: pink;
+
+}
+
+
+.col{
+    margin-top: -110px;
+    color: grey;
+    font-size: 60px;
+    margin-left: 3PX;
+    
+}
+
+.col1{
+   
+    color: gold;
+    margin-top: -110px;
+    
+    font-size: 40px;
+    margin-left: 3PX;
+    background-color: #27303e;
+    
+    
+    
+}
+
+
+.col2{
+    margin-top: -70px;
+    color: grey;
+    font-size: 60px;
+    margin-left: 406PX;
+    
+}
+
+.col:hover{
+    color: aqua;
+}
+
+.col2:hover{
+    color: aqua;
+}
+
+.col1:hover{
+    color: darkcyan;
+    background-color: aqua;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: gold;
+    
+    font-family:Georgia;
+}
+
+h1:hover{
+    color: crimson;
+}
